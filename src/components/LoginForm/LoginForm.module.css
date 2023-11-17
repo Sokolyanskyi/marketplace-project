@@ -1,0 +1,19 @@
+.home-block {
+    display: flex;
+flex-direction: column;
+    width: 100%;
+    position: relative;
+    height: 100%;
+
+}
+.login-form {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}
+.home-button {
+    margin-left:10px ;
+    max-width: fit-content;
+    padding: 3px;
+
+}

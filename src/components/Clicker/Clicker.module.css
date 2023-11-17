@@ -1,0 +1,35 @@
+.clicker {
+   position: relative;
+width: 100%;
+
+}
+.count-block {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.count-block button {
+    max-width: 150px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+
+}
+.count-block button:hover {
+    border-color: #43b1bd;
+}
+.count-block button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}

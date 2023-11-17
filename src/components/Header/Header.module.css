@@ -1,0 +1,13 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #47437a 1px dotted;
+    height: 40px
+
+}
+.login-link {
+
+}
+
